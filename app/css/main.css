@@ -1,0 +1,210 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: "Roboto", sans-serif;
+}
+
+body{
+	background: #ccc;
+}
+
+.cabecera{
+	height: 100px;
+	background: #009688;
+	z-index: -10;
+}
+
+main{
+	position: relative;
+}
+
+.contenedor{
+	width: 95%;
+	max-width: 1400px;
+	margin: 0 auto;
+	position: absolute;
+	top: -50px;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	z-index: 10;
+}
+
+img{
+	border-radius: 50%;
+	width: 40px;
+	height: 40px;
+}
+
+.contactos{
+	width: 30%;
+	float: left;
+}
+
+.chat{
+	width: 70%;
+	float: right;
+}
+
+.perfil{
+	padding: 5px;
+	height: 60px;
+	background: #eeeeee;
+}
+
+.img-perfil{
+	float: left;
+	margin-top: 12px;
+}
+
+.iconos-perfil{
+	float: right;
+	margin-top: 12px;
+}
+
+i{
+	color: #777777;
+    font-size: 23px;
+    margin-left: 18px;
+}
+
+.buscar {
+    background: #fefefe;
+    padding: 10px;
+    border-bottom: 1px solid #dadada;
+}
+
+.search {
+    position: relative;
+}
+
+.icon-search {
+    position: absolute;
+    top: 9px;
+    left: 0;
+    color: #dadada;
+    margin-left: 10px;
+}
+
+.search input {
+    padding: 8px 0px 8px 35px;
+    width: 85%;
+    border-radius: 3px;
+    border: 1px solid #dadada;
+    outline: none;
+    font-weight: 400;
+    font-family: "Roboto", sans-serif;
+}
+
+.user {
+    background: #fff;
+    overflow: auto;
+    height: 580px;
+}
+
+.info-contacto {
+    background: #fff;
+    height: 65px;
+    overflow: hidden;
+    padding: 10px;
+    border-bottom: 1px solid #dadada;
+}
+
+.img-perfil {
+    float: left;
+}
+
+.hora {
+    float: right;
+}
+
+.img-perfil h2, .img-perfil p {
+    position: relative;
+    top: -45px;
+    left: 50px;
+    margin-left: 5px;
+}
+
+h2 {
+    font-size: 17px;
+    color: #4b4b4b;
+    font-weight: 500;
+}
+
+.chats{
+	background: #eeeeee;
+    height: 60px;
+    overflow: hidden;
+    padding: 5px;
+    border-bottom: 1px solid #dadada;
+    border-left: 1px solid #dadada;
+}
+
+.mensajes{
+	background-image: url(../image/chat-panel-bg.png);
+    background-size: cover;
+    background-color: #ede9e4;
+    height: 530px;
+    padding: 20px;
+    overflow: auto;
+}
+
+.enviar{
+	background: #f2f0ee;
+    padding: 10px;
+    height: 43px;
+    overflow: hidden;
+    padding: 10px;
+}
+.icon-insert_emoticon{
+    color: grey;
+}
+.enviar-mensaje{
+    width: 92%;
+    height: 90%;
+    border-radius: 10px;
+    border: none;
+    font-size: 20px;
+}
+.icon-mic{
+    color: grey;
+}
+.conversaciones{
+    width: 90%;
+    height: 100%;
+    margin: auto;
+}
+.texto-conver-1{
+    width: 50%;
+    height: 15%;
+    border-radius: 10px;
+    background: white;
+    padding: 10px;
+    margin-bottom: 20px;
+
+}
+h3{
+    color: blue;
+}
+
+
+@media screen and (max-width: 960px){
+	.contenedor{
+		width: 100%;
+		top: 0;
+	}
+
+	.cabecera{
+		height: 0;
+	}
+}
+
+@media screen and (max-width: 860px){
+	.contenedor{
+		width: 860px;
+	}
+
+	.cabecera{
+		height: 0;
+	}
+}
